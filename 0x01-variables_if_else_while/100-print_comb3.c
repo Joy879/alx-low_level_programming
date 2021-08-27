@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - print combinations
  *
@@ -8,20 +6,24 @@
  */
 int main(void)
 {
-	int d;
+	int i, j, k;
 
-	for (d = 1; d < 90; d++)
+	i = 0;
+	while (i < 100)
 	{
-		if (d != 10)
+		j = i % 10;
+		k = i / 10;
+		if (k < j)
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
+			putchar(k + '0');
+			putchar(j + '0');
+			if (i < 89)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
-		if (d != 89 && d != 10)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		i++;
 	}
 	putchar('\n');
 	return (0);
