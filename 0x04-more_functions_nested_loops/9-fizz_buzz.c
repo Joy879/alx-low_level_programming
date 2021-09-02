@@ -19,6 +19,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	printf("\n");
+	if (i > 100)
+		printf("\n");
 	return (0);
 }
