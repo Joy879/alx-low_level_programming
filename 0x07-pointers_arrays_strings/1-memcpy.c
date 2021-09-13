@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * memcpy - copies n bytes  from memory area src to memory area dest
+ * *_memcpy - copies n bytes  from memory area src to memory area dest
  * @dest:destination char
- * @char: source char
+ * @src: source char
  * @n: number of bytes to be copied
  * Return:pointer to dest
  */
