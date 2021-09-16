@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * return the factorial of  a given number
+ * factorial- finds the factorial of  a given number
  * @n: integer
  * Return: factorial of number or -1 f n is lower than zero
  */
-int factorial (int n)
+int factorial(int n)
 {
-	if (n < 0 )
+	if (n < 0)
 		return (-1);
 	else if (n < 2)
-		return(n);
+		return (n);
 	else
 		return (n * factorial(n - 1));
 }
