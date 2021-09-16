@@ -14,13 +14,13 @@ int is_prime_number(int n)
 	return (prime(n, 2));
 }
 /**
- * sqrt - returns sqrt of number
+ * my_sqrt - returns sqrt of number
  * @x: number
  * @i: number acting as divisor
  * Return: square root of x
  */
 
-int sqrt(int x, int i)
+int my_sqrt(int x, int i)
 {
 	int square;
 
@@ -28,7 +28,7 @@ int sqrt(int x, int i)
 	if (square >= x)
 		return (i);
 	else
-		return (sqrt(x, i + 1));
+		return (my_sqrt(x, i + 1));
 }
 
 /**
