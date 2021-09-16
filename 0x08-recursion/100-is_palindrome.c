@@ -31,7 +31,7 @@ int get_length(char *s)
  */
 int palind(char *s, int l)
 {
-	if (*s == *(s + 1))
+	if (*s == *(s + l))
 	{
 		if (l <= 0)
 			return (1);
