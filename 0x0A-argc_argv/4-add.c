@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * main- - adds positive numbers
  * @argc: size of argv
  * @argv: array of size argc
  * Return: 0 if successful 1 if error
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int sum, x;
 	char *y;
