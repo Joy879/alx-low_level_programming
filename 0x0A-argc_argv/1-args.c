@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * @argc - size  of argv
- * @argv  array of size argc
+ * @argc: size  of argv
+ * @argv: array of size argc
  * Return: Always 0 Success
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int x;
 
