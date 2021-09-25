@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * calloc - allocates memory for an array 
+ * calloc - allocates memory for an array
  * @nmemb:  number of elements in an array
  * @size: size of elements in array
  * Return: pointer to allocated memory or NULL otherwise
@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	for (i = 0; i < (nmemb * size); i+++)
+	for (i = 0; i < (nmemb * size); i++)
 	{
 		*((char *)(p) + i) = 0;
 	}
