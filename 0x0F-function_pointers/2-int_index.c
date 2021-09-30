@@ -8,7 +8,7 @@
  * @cmp: pointer to function to be used to compare values
  * Return: -1 in case of failure or index place otherwise
  */
-int int_index(int *array, int size, int size, int (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
