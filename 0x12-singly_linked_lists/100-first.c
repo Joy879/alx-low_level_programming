@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *print - prints before main
+  *execute_before_main - prints before main
   *
   *Return: void.
   */
